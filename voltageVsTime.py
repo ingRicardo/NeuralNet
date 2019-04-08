@@ -15,11 +15,11 @@ d=8
 iapp = 10
 tr = [200/dt, 700/dt]
 T = ceil(tmax/dt)
-print T
+print (T)
 v = zeros(int(T))
-print v
+print (v)
 u = zeros(int(T))
-print u
+print (u)
 v[0] = -70
 u[0] = -14
 
